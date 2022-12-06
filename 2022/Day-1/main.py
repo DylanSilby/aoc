@@ -1,11 +1,11 @@
-file = open("Input.txt", "r+")
+file = open("2022\\Day-1\\Input.txt", "r+")
 fileLines = file.readlines()
 elf = 1
 highestScore = 0
 highestElf = 1
 score = 0
 elfs = [];
-#working version but I didn't like the use of the while loop
+#working version but I didn't like the use of the while loop and the try to remove the error
 # while fileLines:
 #   # use realine() to read next line
 #   fileLines = file.readline()
